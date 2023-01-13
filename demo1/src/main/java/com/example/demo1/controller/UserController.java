@@ -24,7 +24,7 @@ public class UserController {
     public List<User> getUser() throws InterruptedException {
         Thread.sleep(10000);
 
-        List<User> users = userService.getUserList();
+        List<User> users = userService.findUsers();
 
         return users;
     }

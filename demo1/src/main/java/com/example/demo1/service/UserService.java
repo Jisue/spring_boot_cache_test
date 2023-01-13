@@ -37,7 +37,7 @@ public class UserService {
         users.put(user3.getId(), user3);
     }
 
-    public List<User> getUserList() {
+    public List<User> findUsers() {
         Set<Long> userIds = users.keySet();
 
         return userIds.stream()
