@@ -1,8 +1,5 @@
 package com.example.demo1.enums;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-
 import lombok.Getter;
 
 @Getter
